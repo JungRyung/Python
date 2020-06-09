@@ -22,7 +22,6 @@ def solution(heights):
 	for idx in range(1:len(tower_stack)):
 		while tower_stack.is_empty() != True:
 			
-
 	return answer
 
 # Stack 클래스 정의 - python list 활용
