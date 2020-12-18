@@ -16,7 +16,6 @@ def solution(operations):
         return [0,0]
     else:
         return [queue[0],queue[-1]]
-    return answer
 
 operations = ["I 7","I 5","I -5","D -1"]
 answer = solution(operations)
