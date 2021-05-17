@@ -23,8 +23,6 @@ def solution(info, query):
                 continue
             num += 1
         answer.append(num)
-    # for specifications in info:
-    #     spec = specifications.split(' ')
         
     return answer
 
