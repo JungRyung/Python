@@ -58,10 +58,7 @@ def make_right_string(p):
         return '(' + make_right_string(v) + ')' + new_string
 
 def solution(p):
-    answer = ''
-    
     answer = make_right_string(p)
-
     return answer
 
 p = "()))((()"
