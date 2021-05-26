@@ -1,6 +1,7 @@
 ########## 2021 상반기 조폐공사 코딩테스트 3번문제 ###########
 def area_print(area):
-
+    for row in area:
+        print(row)
 
 def solution(area):
     answer = 0
