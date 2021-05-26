@@ -19,10 +19,12 @@ def solution(area):
                 if area[i+1][j] != '#':
                     for k in range(i,height-1):
                         if area[k+1][j] == '#':
-                            area[k] = area[k][:j] + '.' + area[k][j+1:]
-
+                            area[k] = area[k][:j] + '$' + area[k][j+1:]
+                            break
+                # area_print(area)
     return answer
 
 area = [".$...$..","......$.","$....###","..$.....","...$....","..$...$.","########"]
+# area_print(area)
 answer = solution(area)
 print(answer)
